@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Publicar vacante · Bolsa de trabajo Huejutla</title><link rel="stylesheet" href="estilo.css"></head>
+<body data-pagina="publicar">
+<header id="cab"></header>
+<main><div class="pub"><form class="form" id="f" autocomplete="off"><h1>Publicar una vacante</h1>
+<p class="nota">En esta prueba, tu solicitud llega a la bina por WhatsApp. Verificamos la vacante contigo y la publicamos nosotras.</p>
+<div class="dos"><div><label for="puesto">Puesto o título</label><input id="puesto" placeholder="Ayudante de mostrador" required></div>
+<div><label for="com">Comunidad</label><input id="com" placeholder="Huejutla Centro" required></div></div>
+<label for="dir">Dirección o referencia</label><input id="dir" placeholder="Calle Hidalgo, junto a la papelería…">
+<div class="dos"><div><label for="hor">Horario laboral</label><input id="hor" placeholder="L a S, 8 a 18 hrs"></div>
+<div><label for="sue">Sueldo ofertado</label><input id="sue" placeholder="$1,800 semanal"></div></div>
+<label for="req">Requisitos indispensables</label><input id="req" placeholder="Mayor de 18, responsable…">
+<div class="dos"><div><label>Duración del anuncio</label><div class="dur"><span class="on" id="dur-dias"></span></div></div>
+<div><label for="neg">Nombre del negocio</label><input id="neg" placeholder="Abarrotes El Sol" required></div></div>
+<label for="wa">WhatsApp de contacto del negocio</label><input id="wa" placeholder="771 000 0000" inputmode="tel">
+<p class="nota">Destacar la vacante estará disponible más adelante; por ahora no se cobra nada.</p>
+<div style="margin-top:20px"><button class="btn" type="submit">Enviar solicitud a la bina</button></div>
+<div class="salida" id="sal" hidden></div></form>
+<aside class="previa"><h4>Vista previa</h4><div id="pv"></div></aside></div></main>
+<footer id="pie"></footer>
+<script src="datos.js"></script><script src="comun.js"></script><script src="publicar.js"></script>
+</body></html>

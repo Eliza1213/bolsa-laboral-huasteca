@@ -12,7 +12,7 @@ else{
     <dl class="d"><dt>Sueldo</dt><dd><b>${esc(v.sueldo)}</b></dd><dt>Horario</dt><dd>${esc(v.horario)}</dd>
     <dt>Requisitos</dt><dd>${esc(v.requisitos)}</dd><dt>Dónde</dt><dd>${esc(v.donde)}</dd>
     <dt>Fechas</dt><dd>${v.publicada?`Publicada: ${esc(v.publicada)} · Vence: ${esc(v.vence)}`:"Se definen al publicarla"}</dd></dl>
-    <div class="mapa">Ubicación de ${esc(v.negocio)}</div></div>
+    <div class="mapa">Mapa no incluido en el piloto · ${esc(v.donde)}</div></div>
     <aside class="lado"><div class="card"><div class="est"><span>Estado:</span>${etiqueta(v)}</div>${wa}
     <button class="rep" id="rep" type="button">⚠ Reportar esta vacante</button><div class="salida" id="sal" hidden></div></div></aside></div>`;
   $("#rep").onclick=()=>mensajeBina(`Quiero reportar la vacante ${v.id} (${v.puesto}). Motivo: `,$("#sal"));

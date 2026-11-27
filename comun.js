@@ -13,7 +13,7 @@ function cabecera(){
 }
 function pie(){
   document.getElementById("pie").innerHTML =
-    `Bolsa Laboral Huasteca · Integradora, UTHH · Grupo 10.° B · Bina 09<br>Prueba piloto actualizada el ${CONFIG.actualizado}. No guardamos datos de candidatos.`;
+    `Bolsa Laboral Huasteca · Integradora, UTHH · Grupo 10.° B · Bina 09 · Versión 1.1<br>Prueba piloto actualizada el ${CONFIG.actualizado}. No guardamos datos de candidatos.`;
 }
 cabecera(); pie();
 
